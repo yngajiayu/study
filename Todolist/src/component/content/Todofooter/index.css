@@ -1,0 +1,47 @@
+
+/*footer*/
+.todo-footer {
+  font-size: large;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 6px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .todo-footer label {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .todo-footer label input {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .todo-footer button {
+    float: right;
+    margin-top: 5px;
+  }
+  .btn-clear{
+    color: #fff;
+    background-color: #da4f49;
+    border: 1px solid #bd362f;
+    float: right;
+    margin-top: 3px;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .btn-clear:hover {
+    color: #fff;
+    background-color: #bd362f;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }

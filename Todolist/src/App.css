@@ -1,0 +1,83 @@
+@import '~choerodon-ui/dist/choerodon-ui.css';
+@import '~choerodon-ui/dist/choerodon-ui-pro.css';
+
+/*base*/
+body {
+  background: #fff;
+}
+
+/* 布局容器 */
+.todo-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* 布局容器 */
+.todo-container .todo-wrap {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* 头部 */
+.header {
+  background: #fff;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 0px;
+}
+
+/* 主要内容区 */
+.content {
+  background: #fff;
+  padding: 24px;
+  margin: 0;
+  height: 475px;
+}
+
+/* Todolist表 */
+.todo-main {
+  margin-top: 20px;
+  margin-left: 0px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 0px;
+  overflow: auto;
+}
+
+/* 底部区域 */
+.footer {
+  text-align: center;
+}
+
+/* 按钮样式 */
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+/* list表删除按钮样式 */
+.btn-danger {
+  color: #fff;
+  background-color: #da4f49;
+  border: 1px solid #bd362f;
+  float: right;
+  margin-top: 3px;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #bd362f;
+}
+
+.btn:focus {
+  outline: none;
+}
