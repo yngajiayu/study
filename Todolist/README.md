@@ -22,7 +22,12 @@ Todofooter(todolist事件统计和操作)
 ```
 1. 安装项目依赖
 
-2. 项目依赖安装完成后，执行yarn start 命令即可启动项目，建议用Edge浏览器打开效果最佳。（我用的Edge浏览器去预览和调整样式）
+2. 特别注意：
+   问题：Sider组件的index.tsx文件中给Menu组件定义样式时会报错。
+   原因：项目用的React 18版本，在这个版本中 children 属性已经在函数组件中被移除，如果需要使用        	children 属性，则需要我们手动声明。
+   解决方法：在Sider组件的index.tsx文件中找到Menu,按住Ctrl键同时右键点击Menu进入到node_modules定义  	Menu的地方找到interface MenuProps,然后手动添加 children?: React.ReactNode 用于声明children 	属性。
+ 
+3. 项目依赖安装完成以及给Menu组件添加好children 属性后，执行yarn start 命令即可启动项目，建议用Edge浏览器打开效果最佳。（我用的Edge浏览器去预览和调整样式）
 ```
 
 ### 
